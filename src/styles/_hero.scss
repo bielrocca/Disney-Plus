@@ -27,6 +27,10 @@
             }
         }
 
+        ul {
+            list-style: none;
+        }
+
         &__combos {
             display: flex;
             justify-content: space-between;
