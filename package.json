@@ -12,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "gulp": "^5.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.77.8"
   }
