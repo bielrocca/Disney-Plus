@@ -9,6 +9,8 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
         margin-top: 40px;
+        cursor: pointer;
+        list-style: none;
 
         &--is--active {
             display: grid;
@@ -17,6 +19,12 @@
         img {
             max-width: 100%;
             border-radius: 4px;
+            transition: .5s;
+
+            &:hover {
+                transform: scale(1.02);
+                transition: .5s;
+            }
         }
     }
 
